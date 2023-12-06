@@ -10,10 +10,9 @@ while True:
             continue
         break
     except ValueError:
-        print("Įvestas ne skaičius")
+        print("Įvestas ne sveikasis skaičius")
 
 sugeneruotas = random.randint(nuo + 1, iki - 1)
-print(sugeneruotas)
 counter = 0
 
 while True:
@@ -23,7 +22,7 @@ while True:
             spejamas = int(input("Spėjamas skaičius: "))
             break
         except ValueError:
-            print("Įvestas ne skaičius")
+            print("Įvestas ne sveikasis skaičius")
     if spejamas <= nuo or spejamas >= iki:
         print("Spėjimas iš ribų")
         continue
