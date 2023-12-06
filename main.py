@@ -1,7 +1,11 @@
 import random
 
-sugeneruotas = random.randint(1, 100)
-# print(sugeneruotas)
+print("Pasirinkite spėjamo skaičiaus ribas")
+nuo = int(input("Nuo: "))
+iki = int(input("Iki: "))
+
+sugeneruotas = random.randint(nuo, iki)
+print(sugeneruotas)
 counter = 0
 
 while True:
