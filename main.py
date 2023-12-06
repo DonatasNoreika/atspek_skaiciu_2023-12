@@ -9,3 +9,6 @@ while True:
         print("Mažiau")
     if spejamas < sugeneruotas:
         print("Daugiau")
+    if spejamas == sugeneruotas:
+        print("Atspėjote!")
+        break
